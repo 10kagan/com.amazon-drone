@@ -4,7 +4,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -45,10 +44,6 @@ public class drone {
         //String expectedUrl = "https://www.amazon.com/s?k=drone+for+kids&crid=2MD4QQKSEUP9W&sprefix=drone+for+%2Caps%2C199&ref=nb_sb_ss_organic-diversity_1_10";
         Assert.assertTrue(actualUrl.contains("drone+for+kids"));
 
-//        Usage: git config –global user.name “[name]”
-//        Usage: git config –global user.email “[email address]”
-//        Usage: git add [file]
-//        Usage: git commit -m “[ Type in the commit message]”
 
 
 
