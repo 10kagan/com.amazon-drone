@@ -40,6 +40,7 @@ public class drone {
         Actions action = new Actions(driver);
         action.sendKeys(Keys.ENTER).build().perform();
 
+
         String actualUrl = driver.getCurrentUrl();
         //String expectedUrl = "https://www.amazon.com/s?k=drone+for+kids&crid=2MD4QQKSEUP9W&sprefix=drone+for+%2Caps%2C199&ref=nb_sb_ss_organic-diversity_1_10";
         Assert.assertTrue(actualUrl.contains("drone+for+kids"));
